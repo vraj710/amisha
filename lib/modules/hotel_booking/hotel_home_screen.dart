@@ -1,9 +1,9 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-// import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/filter_bar_UI.dart';
-// import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/map_and_list_view.dart';
-// import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/time_date_view.dart';
-// import 'package:flutter_hotel_booking_ui/modules/myTrips/hotel_list_view.dart';
+// // import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/filter_bar_UI.dart';
+// // import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/map_and_list_view.dart';
+// // import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/time_date_view.dart';
+// // import 'package:flutter_hotel_booking_ui/modules/myTrips/hotel_list_view.dart';
 // import 'package:flutter_hotel_booking_ui/providers/theme_provider.dart';
 // import 'package:flutter_hotel_booking_ui/routes/route_names.dart';
 // import 'package:flutter_hotel_booking_ui/utils/enum.dart';
@@ -13,7 +13,7 @@
 // import 'package:flutter_hotel_booking_ui/widgets/common_search_bar.dart';
 // import 'package:flutter_hotel_booking_ui/widgets/remove_focuse.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-// import '../../models/hotel_list_data.dart';
+// //import '../../models/hotel_list_data.dart';
 // import 'package:provider/provider.dart';
 
 // class HotelHomeScreen extends StatefulWidget {
@@ -25,7 +25,7 @@
 //     with TickerProviderStateMixin {
 //   late AnimationController animationController;
 //   late AnimationController _animationController;
-//   var hotelList = HotelListData.hotelList;
+//   //var hotelList = HotelListData.hotelList;
 //   ScrollController scrollController = new ScrollController();
 //   int room = 1;
 //   int ad = 2;
