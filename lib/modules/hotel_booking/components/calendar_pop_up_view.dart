@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/custom_calendar.dart';
+//import 'package:flutter_hotel_booking_ui/modules/hotel_booking/components/custom_calendar.dart';
 import 'package:flutter_hotel_booking_ui/motel_app.dart';
 import 'package:flutter_hotel_booking_ui/providers/theme_provider.dart';
 import 'package:flutter_hotel_booking_ui/utils/enum.dart';
@@ -120,19 +120,19 @@ class _CalendarPopupViewState extends State<CalendarPopupView>
                           height: 1,
                         ),
                         //Custome calendar page view
-                        CustomCalendarView(
-                          minimumDate: widget.minimumDate,
-                          maximumDate: widget.maximumDate,
-                          initialEndDate: widget.initialEndDate,
-                          initialStartDate: widget.initialStartDate,
-                          startEndDateChange:
-                              (DateTime startDateData, DateTime endDateData) {
-                            setState(() {
-                              startDate = startDateData;
-                              endDate = endDateData;
-                            });
-                          },
-                        ),
+                        // CustomCalendarView(
+                        //   minimumDate: widget.minimumDate,
+                        //   maximumDate: widget.maximumDate,
+                        //   initialEndDate: widget.initialEndDate,
+                        //   initialStartDate: widget.initialStartDate,
+                        //   startEndDateChange:
+                        //       (DateTime startDateData, DateTime endDateData) {
+                        //     setState(() {
+                        //       startDate = startDateData;
+                        //       endDate = endDateData;
+                        //     });
+                        //   },
+                        // ),
                         Padding(
                           padding: const EdgeInsets.only(
                               left: 16, right: 16, bottom: 16, top: 8),
